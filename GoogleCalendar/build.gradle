@@ -31,6 +31,11 @@ mainClassName = 'com.full.Quickstart'
 
 
 
+plugins {
+  id "org.springframework.boot" version "1.5.6.RELEASE"
+}
+
+
 // START SNIPPET use-war-plugin
 apply plugin: 'war'
 // END SNIPPET use-war-plugin
